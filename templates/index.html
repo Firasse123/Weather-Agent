@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Weather Agent — Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <div class="chat-app">
+      <header>
+        <h1>Weather Agent</h1>
+        <p class="subtitle">Ask about weather — powered by your agent</p>
+      </header>
+
+      <main id="chat">
+        <div id="messages" class="messages"></div>
+      </main>
+
+      <form id="composer" class="composer" action="#" onsubmit="return false;">
+        <input id="input" placeholder="Type a message..." autocomplete="off" />
+        <button id="send">Send</button>
+      </form>
+    </div>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
